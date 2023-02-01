@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: none;
+  transition: .4s;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    color: rgb(148, 148, 148) !important;
+}
+
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  text-shadow: 0.5px 0.2px 8px rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(rgba(72, 72, 72, 0.491), rgba(74, 74, 74, 0.116));
+}
+.card-img-top {
+    height: 15em;
+    overflow: hidden;
+    display: flex;
+    vertical-align: center;
+}
+
+:root {
+  font-size: 0.9rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.round {
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  transform-origin: 0 0;
+  transform: rotate(10deg);
+}
+
+
+@media screen and (min-width: 768px) {
+  .carousel-item {
+    height: 75vh !important;
+  }
+}
