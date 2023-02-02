@@ -1,3 +1,4 @@
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -12,7 +13,7 @@ a {
 }
 
 .cursor:hover {
-  opacity: 70%;
+  opacity: 82%;
 }
 
 a:hover {
