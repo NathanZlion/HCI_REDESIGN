@@ -66,12 +66,16 @@ a:hover {
   transition: transform 1s ease, opacity 0.5s ease-out;
 }
 
-:root {
+.card {
+  margin-top: 2em;
+}
+
+html {
   font-size: 0.7rem;
 }
 
 @media screen and (min-width: 768px) {
-  :root {
+  html {
     font-size: 0.9rem;
   }
   .carousel-item {
