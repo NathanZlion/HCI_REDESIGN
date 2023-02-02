@@ -16,7 +16,7 @@
 
     <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container ">
+        <div class="container">
             <a class="navbar-brand bg-dark d-flex flex-row align-items-center gap-2 text-light" href="#">
                 <img class="img-fluid" src="images/logo.png" style="height: 36px" alt="HAITINEWSNETWORK">
                 <div class="lead fw-bold">Haiti News Network</div>
@@ -27,8 +27,49 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="d-flex navbar-nav ms-auto mb-2 mb-lg-0 align-items-center" role="search">
+
+                <ul class="d-flex navbar-nav mb-2 mb-lg-0 align-items-center w-100" role="search">
                     <li class="nav-item">
+                        <a class="nav-link" href="#">Politics</a>
+                    </li>
+                    <li>
+                        <vr class="d-none d-md-inline text-light border border-1">
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+                    <li>
+                        <vr class="d-none d-md-inline text-light border border-1">
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Health</a>
+                    </li>
+                    <li>
+                        <vr class="d-none d-md-inline text-light border border-1">
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Haiti Politics</a></li>
+                            <li><a class="dropdown-item" href="#">Travel</a></li>
+                            <li><a class="dropdown-item" href="#">Tech</a></li>
+                            <li>
+                                <hr class="dropdown-divider text-light border border-4">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sports</a></li>
+                            <li><a class="dropdown-item" href="#">Entertainment</a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+                    <hr class="w-100 d-inline d-md-none text-light border border-1">
+
+                    <li class="nav-item ms-auto">
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                     </li>
@@ -43,42 +84,10 @@
         </div>
     </nav>
 
-    <!-- 
-
-    Here is a sample news list comprising of various categories:
-
-Sports:
-
-Manchester United wins against Chelsea in the Premier League match
-Serena Williams advances to the quarterfinals of Australian Open
-Lionel Messi signs a contract extension with Barcelona
-Politics:
-
-Joe Biden announces plans for a comprehensive immigration reform
-Donald Trump acquits by Senate in his second impeachment trial
-EU leaders agree on a new 7-year budget and COVID-19 recovery fund
-Environment:
-
-Climate Change summit held in Paris to discuss reducing global emissions
-Amazon Rainforest fires devastate wildlife and indigenous communities
-World governments commit to protecting 30% of the planet’s lands and oceans by 2030
-Technology:
-
-Apple unveils its latest iPhone model with improved camera and security features
-Tesla becomes the world's most valuable automaker, surpassing Toyota
-Google announces the development of its quantum computer, the Sycamore processor
-Health:
-
-World Health Organization declares a global health emergency over the new variant of COVID-19
-Moderna announces the success of its COVID-19 vaccine clinical trials
-Study finds link between air pollution and increased risk of developing dementia
- -->
-    <!-- header carousel -->
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
+                data-bs-interval="10000" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
@@ -132,10 +141,11 @@ Study finds link between air pollution and increased risk of developing dementia
     <!-- end 0 -->
 
     <section class="container m-auto row text-left justify-content-evenly mt-3 mb-5">
-        <div class="h2 border-0 border-start col-12 border-5 border-warning p-2 ">HeadLines</div>
+        <div class="h2 border-0 border-start col-12 border-5 border-warning p-2 "><i class="fa-regular fa-newspaper">
+                HEADLINES</i></div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/ukrain.jpeg" class="img-fluid" alt="...">
+                <img src="images/ukrain.jpeg" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Russia's war in Ukraine: live update.</h5>
@@ -147,7 +157,7 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/cnn-mosco.jpg" class="img-fluid" alt="...">
+                <img src="images/cnn-mosco.jpg" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Missing radioactive capsule found in Australia</h5>
@@ -158,7 +168,7 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/fox.webp" class="img-fluid" alt="...">
+                <img src="images/fox.webp" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">'Frasier' star Kelsey Grammer on why his seven kids will get his inheritance</h5>
@@ -175,7 +185,7 @@ Study finds link between air pollution and increased risk of developing dementia
                 NEWS</i></div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/france24.webp" class="img-fluid" alt="...">
+                <img src="images/france24.webp" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Pensions: after a record mobilization, the executive in operation plugging</h5>
@@ -186,7 +196,7 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/georgeSantos.jfif" class="img-fluid" alt="...">
+                <img src="images/georgeSantos.jfif" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Rep. George Santos Resigns From House Committees Until Investigations Are
@@ -199,11 +209,12 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/funeral.jfif" class="img-fluid" alt="...">
+                <img src="images/funeral.jfif" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Moving funeral of police officers killed in Pétion-Ville</h5>
-                <p class="card-text">A shootout between gangs and the police force has led to the losst of morethan 10 poice mens' lives. The Haitian PM has yet not ...</p>
+                <p class="card-text">A shootout between gangs and the police force has led to the losst of morethan 10
+                    poice mens' lives. The Haitian PM has yet not ...</p>
 
                 <a href="#" class="text-muted border-0 border-start border-3 border-secondary p-2 ">FOX NEWS</a>
             </div>
@@ -215,7 +226,7 @@ Study finds link between air pollution and increased risk of developing dementia
                 NEWS</i></i></div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/fox.webp" class="img-fluid" alt="...">
+                <img src="images/fox.webp" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">ChatGPT firms trials monthly subscription fee</h5>
@@ -225,7 +236,7 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/indianFarmer.jpg" class="img-fluid" alt="...">
+                <img src="images/indianFarmer.jpg" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">How drones could be the future of Indian farming</h5>
@@ -237,7 +248,7 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-4">
             <div class="card-img-top">
-                <img src="images/gmail.webp" class="img-fluid" alt="...">
+                <img src="images/gmail.webp" class="img-fluid mx-auto" alt="...">
             </div>
 
             <div class="card-body">
@@ -256,9 +267,9 @@ Study finds link between air pollution and increased risk of developing dementia
     <section class="container m-auto row text-center text-md-start justify-content-evenly mt-5 mb-5">
         <div class="h2 border-0 border-start border-5 border-warning p-2"><i class="fa-solid fa-volleyball"> SPORTS</i>
         </div>
-        <div class="card col-12 col-md-3">
+        <div class="card col-12 col-md-3 row">
             <div class="card-img-top">
-                <img src="images/manchester.jfif" class="img-fluid" alt="...">
+                <img src="images/manchester.jfif" class="img-fluid mx-auto" alt="...">
             </div>
 
             <div class="card-body">
@@ -267,9 +278,9 @@ Study finds link between air pollution and increased risk of developing dementia
                 <a href="#" class="text-muted border-0 border-start border-2 border-secondary p-2 ">FOX NEWS</a>
             </div>
         </div>
-        <div class="card col-12 col-md-3">
+        <div class="card col-12 col-md-3 row">
             <div class="card-img-top">
-                <img src="images/serena.jpg" class="img-fluid" alt="...">
+                <img src="images/serena.jpg" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Tennis - Serena Willihams
@@ -280,7 +291,7 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-3">
             <div class="card-img-top">
-                <img src="images/messiSigned.jfif" class="img-fluid" alt="...">
+                <img src="images/messiSigned.jfif" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Messi</h5>
@@ -290,7 +301,7 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
         <div class="card col-12 col-md-3">
             <div class="card-img-top">
-                <img src="images/kyogo.jpg" class="img-fluid" alt="...">
+                <img src="images/kyogo.jpg" class="img-fluid mx-auto" alt="...">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Kyogo impresses as Celtic cruise past Livingston</h5>
@@ -301,78 +312,78 @@ Study finds link between air pollution and increased risk of developing dementia
         </div>
     </section>
 
-    <div class="row text-center justify-content-center gap-0 justify-content-center w-100">
-        <div class="col-12 col-md-3 container-fluid">
-            <table class="table table-dark bg-dark table-striped caption-top">
-                <caption class="bg-danger text-light ps-2 fw-bold">HAITIAN RADIO</caption>
+    <div class="row justify-content-center gap-0 justify-content-center w-100">
+        <div class="col-12 col-md-3 container p-2">
+            <table class="table table-dark bg-dark table-striped caption-top ms-auto">
+                <caption class="text-center bg-danger text-light ps-2 fw-bold">HAITIAN RADIO</caption>
                 <tbody>
                     <tr>
                         <th scope="row">
-                            <div class="bg-danger round text-center">1</div>
+                            <div class="bg-danger round text-center" >1</div>
                         </th>
-                        <td>Haitian Radio From Haiti</td>
+                        <td class="cursor">Haitian Radio From Haiti</td>
                     </tr>
                     <tr>
                         <th scope="row">
                             <div class="bg-danger round text-center">2</div>
                         </th>
-                        <td>Haitian Radio From New York</td>
+                        <td class="cursor">Haitian Radio From New York</td>
                     </tr>
                     <tr>
                         <th scope="row">
                             <div class="bg-danger round text-center">3</div>
                         </th>
-                        <td>Haitian Radio From Florida</td>
+                        <td class="cursor">Haitian Radio From Florida</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <div class="col-12 col-md-3 container">
-            <table class="table table-dark bg-dark table-striped caption-top">
-                <caption class="bg-danger text-light ps-2 fw-bold">HAITIAN RADIO</caption>
+        <div class="col-12 col-md-3 container p-2">
+            <table class="table table-dark bg-dark table-striped caption-top ms-auto">
+                <caption class="text-center bg-danger text-light ps-2 fw-bold">REFERENCES</caption>
                 <tbody>
-                    <tr>
+                    <tr class="cursor">
                         <th scope="row">
                             <div class="bg-danger round text-center">1</div>
                         </th>
-                        <td>Haitian Radio From Haiti</td>
+                        <td>POTOMITAN</td>
                     </tr>
-                    <tr>
+                    <tr class="cursor">
                         <th scope="row">
                             <div class="bg-danger round text-center">2</div>
                         </th>
-                        <td>Haitian Radio From New York</td>
+                        <td>Le Repertoire d'Haiti</td>
                     </tr>
-                    <tr>
+                    <tr class="cursor">
                         <th scope="row">
                             <div class="bg-danger round text-center">3</div>
                         </th>
-                        <td>Haitian Radio From Florida</td>
+                        <td>US EMBASSY IN HAITI</td>
+                    </tr>
+                    <tr class="cursor">
+                        <th scope="row">
+                            <div class="bg-danger round text-center">4</div>
+                        </th>
+                        <td>Reconstruction Haiti</td>
+                    </tr>
+                    <tr  class="cursor">
+                        <th scope="row">
+                            <div class="bg-danger round text-center">5</div>
+                        </th>
+                        <td>HAITI Business Directory</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <div class="col-12 col-md-3 container">
-            <table class="table table-dark bg-dark table-striped caption-top">
-                <caption class="bg-danger text-light ps-2 fw-bold">HAITIAN RADIO</caption>
+        <div class="col-12 col-md-3 container p-2">
+            <table class="table table-dark bg-dark table-striped caption-top ms-auto">
+                <caption class="text-center bg-danger text-light ps-2 fw-bold">Donate</caption>
                 <tbody>
-                    <tr>
+                    <tr class="cursor">
                         <th scope="row">
                             <div class="bg-danger round text-center">1</div>
                         </th>
-                        <td>Haitian Radio From Haiti</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            <div class="bg-danger round text-center">2</div>
-                        </th>
-                        <td>Haitian Radio From New York</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            <div class="bg-danger round text-center">3</div>
-                        </th>
-                        <td>Haitian Radio From Florida</td>
+                        <td class="text-start"><i class="fa-brands fa-paypal"> Paypal</i></td>
                     </tr>
                 </tbody>
             </table>
@@ -389,22 +400,22 @@ Study finds link between air pollution and increased risk of developing dementia
         <div class="container-fluid col-12 col-md-8 my-3 py-5 ps-5">
             <div class="row justify-content-start text-light text-center text-sm-start">
                 <div class="col-12 col-md-4 h3">Explore the site</div>
-                <div class="d-flex flex-wrap col-12 col-md-8">
-                    <div class="col-12 col-md-2 my-3">Guest Book</div>
-                    <div class="col-12 col-md-2 my-3">Rate Us</div>
-                    <div class="col-12 col-md-2 my-3">Contact us</div>
-                    <div class="col-12 col-md-2 my-3">Subscribe</div>
+                <div class="d-flex flex-wrap col-12 col-md-8 text-center">
+                    <a href="#" class="col-12 col-md-2 my-3 text-light">Guest Book</a>
+                    <a href="#" class="col-12 col-md-2 my-3 text-light">Rate Us</a>
+                    <a href="#" class="col-12 col-md-2 my-3 text-light">Contact us</a>
+                    <a href="#" class="col-12 col-md-2 my-3 text-light">Subscribe</a>
                 </div>
             </div>
             <hr class="text-light">
             <div class="row justify-content-start text-light">
                 <div class="d-flex flex-wrap col-12  text-center text-sm-start">
-                    <a href = "#" class="col-12 col-md-auto me-4 my-3 text-light">Terms of use</a>
-                    <a href = "#" class="col-12 col-md-auto me-4 my-3 text-light">Privacy Policy</a>
-                    <a href = "#" class="col-12 col-md-auto me-4 my-3 text-light">Cookies</a>
-                    <a href = "#" class="col-12 col-md-auto me-4 my-3 text-light">Accessibility Help</a>
-                    <a href = "#" class="col-12 col-md-auto me-4 my-3 text-light">Parental Guidance</a>
-                    <a href = "#" class="col-12 col-md-auto me-4 my-3 text-light">Advertise With Us</a>
+                    <a href="#" class="col-12 col-md-auto me-4 my-3 text-light">Terms of use</a>
+                    <a href="#" class="col-12 col-md-auto me-4 my-3 text-light">Privacy Policy</a>
+                    <a href="#" class="col-12 col-md-auto me-4 my-3 text-light">Cookies</a>
+                    <a href="#" class="col-12 col-md-auto me-4 my-3 text-light">Accessibility Help</a>
+                    <a href="#" class="col-12 col-md-auto me-4 my-3 text-light">Parental Guidance</a>
+                    <a href="#" class="col-12 col-md-auto me-4 my-3 text-light">Advertise With Us</a>
                 </div>
             </div>
             <hr class="text-light">

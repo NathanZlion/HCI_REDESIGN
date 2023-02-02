@@ -3,39 +3,42 @@ a {
   cursor: pointer;
   text-decoration: underline;
   color: none;
-  transition: .4s;
+  transition: 0.4s;
+}
+
+.cursor {
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.cursor:hover {
+  opacity: 70%;
 }
 
 a:hover {
-    /* text-decoration: underline; */
-    color: rgb(148, 148, 148) !important;
+  color: rgb(148, 148, 148) !important;
 }
 
 .carousel-item {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  font-size: 1.5rem;
 }
-
 
 .carousel-caption {
   position: absolute;
   bottom: 0;
   text-shadow: 0.5px 0.2px 8px rgb(0, 0, 0);
-  font-size: 1.5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   background: linear-gradient(rgba(72, 72, 72, 0.491), rgba(74, 74, 74, 0.116));
 }
 .card-img-top {
-    height: 15em;
-    overflow: hidden;
-    display: flex;
-    vertical-align: center;
-}
-
-:root {
-  font-size: 0.9rem;
+  height: 15em;
+  overflow: hidden;
+  display: flex;
+  vertical-align: center;
 }
 
 .carousel-control-prev,
@@ -59,8 +62,18 @@ a:hover {
   transform: rotate(10deg);
 }
 
+.carousel-item {
+  transition: transform 1s ease, opacity 0.5s ease-out;
+}
+
+:root {
+  font-size: 0.7rem;
+}
 
 @media screen and (min-width: 768px) {
+  :root {
+    font-size: 0.9rem;
+  }
   .carousel-item {
     height: 75vh !important;
   }
