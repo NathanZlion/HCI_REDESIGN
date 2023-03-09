@@ -1,0 +1,96 @@
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: none;
+  transition: 0.4s;
+}
+
+.cursor {
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.cursor:hover {
+  opacity: 82%;
+}
+
+a:hover {
+  color: rgb(148, 148, 148) !important;
+}
+
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  text-shadow: 0.5px 0.2px 8px rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(rgba(72, 72, 72, 0.491), rgba(74, 74, 74, 0.116));
+}
+.card-img-top {
+  max-height: 15em;
+  overflow: hidden;
+  display: flex;
+  vertical-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.round {
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  transform-origin: 0 0;
+  transform: rotate(10deg);
+}
+
+.carousel-item {
+  transition: transform 1s ease, opacity 0.5s ease-out;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+img {
+  height: auto;
+  
+}
+
+html {
+  font-size: 0.7rem;
+}
+
+
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 0.9rem;
+  }
+  .carousel-item {
+    height: 75vh !important;
+  }
+}
